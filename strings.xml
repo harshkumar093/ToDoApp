@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ToDoApp</string>
+    <string name="NEW_TASK">NEW TASK</string>
+    <string name="ALL_TASK">ALL TASK</string>
+    <string name="EDIT_TASK">EDIT TASK</string>
+    <string name="CREDITS">   CREDITS   </string>
+    <string name="EXIT">     EXIT     </string>
+</resources>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main2Activity"
+    android:background="@color/Background">
+    <TextView
+        android:id="@+id/tV1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Today's Date"
+        android:textSize="25dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="80dp"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/tV2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Today's Day"
+        android:textSize="25dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="80dp"
+        android:layout_alignParentRight="true"
+        android:textStyle="bold"/>
+
+
+    <EditText
+        android:id="@+id/eT1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="14"
+        android:layout_centerHorizontal="true"
+        android:background="@color/White"
+        android:textSize="20dp"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="250dp"
+        android:lines="2"
+        />
+
+    <TextView
+        android:id="@+id/tV3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ADD NEW TASK"
+        android:layout_centerHorizontal="true"
+        android:background="@color/White"
+        android:textSize="20dp"
+        android:layout_marginTop="150dp"
+        android:paddingHorizontal="20dp"
+        />
+
+
+
+    <TextView
+        android:id="@+id/tV4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rate the task (Priority-wise)(1-3)"
+        android:textSize="20dp"
+        android:background="@color/White"
+        android:paddingHorizontal="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="350dp"/>
+
+    <EditText
+        android:id="@+id/eT3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="14"
+        android:background="@color/White"
+        android:gravity="center_horizontal"
+        android:textSize="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="500dp"
+        />
+
+    <Button
+        android:id="@+id/but1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ADD"
+        android:background="@color/TextColor"
+        android:textColor="@color/White"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="550dp"
+        android:textSize="20dp"
+        android:paddingHorizontal="107dp"/>
+
+    <EditText
+        android:id="@+id/eT2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="2"
+        android:background="@color/White"
+        android:gravity="center_horizontal"
+        android:textSize="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="400dp"
+        />
+
+    <Button
+        android:id="@+id/but2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BACK"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="610dp"
+        android:background="@color/colorAccent"
+        android:textColor="@color/White"
+        android:textStyle="bold"
+        android:paddingHorizontal="100dp"
+        android:textSize="20dp"/>
+
+
+</RelativeLayout>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/Background">
+    <TextView
+        android:id="@+id/tV1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Today's Date"
+        android:textSize="25dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="80dp"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/tV2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Today's Day"
+        android:textSize="25dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="80dp"
+        android:layout_alignParentRight="true"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/but1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginVertical="175dp"
+        android:textStyle="bold"
+        android:paddingHorizontal="120dp"
+        android:background="@color/colorAccent"
+        android:text="@string/NEW_TASK"/>
+
+
+    <Button
+        android:id="@+id/but2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginVertical="250dp"
+        android:textStyle="bold"
+        android:paddingHorizontal="120dp"
+        android:background="@color/colorAccent"
+        android:text="@string/ALL_TASK"
+        />
+
+
+    <Button
+        android:id="@+id/but3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="325dp"
+        android:paddingHorizontal="120dp"
+        android:textStyle="bold"
+        android:background="@color/colorAccent"
+        android:text="@string/EDIT_TASK"
+        />
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="400dp"
+        android:paddingHorizontal="120dp"
+        android:textStyle="bold"
+        android:background="@color/colorAccent"
+        android:text="Previous"
+        />
+
+
+    <Button
+        android:id="@+id/but4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="475dp"
+        android:paddingHorizontal="125dp"
+        android:textStyle="bold"
+        android:background="@color/colorAccent"
+        android:text="@string/CREDITS"
+        />
+
+
+    <Button
+        android:id="@+id/but5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="550dp"
+        android:paddingHorizontal="135dp"
+        android:textStyle="bold"
+        android:background="@color/colorAccent"
+        android:text="@string/EXIT"
+        />
+
+
+</RelativeLayout>

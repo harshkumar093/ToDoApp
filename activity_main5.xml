@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main5Activity">
+
+    <TextView
+        android:id="@+id/tV1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DD:"
+        android:textSize="20dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="60dp"/>
+
+    <EditText
+        android:id="@+id/eT1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="2"
+        android:inputType="number"
+        android:textSize="20dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="100dp" />
+    <TextView
+        android:id="@+id/tV2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MM:"
+        android:textSize="20dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="140dp"/>
+
+    <EditText
+        android:id="@+id/eT2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="2"
+        android:inputType="number"
+        android:textSize="20dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="180dp" />
+
+    <TextView
+        android:id="@+id/tV3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="YYYY:"
+        android:textSize="20dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="220dp"/>
+
+    <EditText
+        android:id="@+id/eT3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="4"
+        android:inputType="number"
+        android:textSize="20dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="280dp" />
+    <TextView
+        android:id="@+id/tV4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter date to search the Tasks"
+        android:textColor="@color/White"
+        android:gravity="center_horizontal"
+        android:textStyle="bold"
+        android:background="@color/colorAccent"
+        android:width="330dp"
+        android:textSize="18dp"
+        android:layout_marginTop="220dp"
+        android:layout_marginLeft="40dp"/>
+
+    <Button
+        android:id="@+id/but2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="find"
+        android:background="@color/TextColor"
+        android:textStyle="bold"
+        android:textColor="@color/White"
+        android:textSize="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="160dp"
+        android:paddingHorizontal="100dp"
+        />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="600dp"
+        android:background="@color/TextColor"
+        android:textStyle="bold"
+        android:textColor="@color/White"
+        android:textSize="20dp"/>
+</RelativeLayout>
